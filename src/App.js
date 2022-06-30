@@ -1,10 +1,12 @@
 import './App.css';
-import Counter from "./components/Counter";
+import PostsList from "./components/PostsList";
+import AddPostForm from "./components/AddPostForm";
 
 function App() {
   return (
-    <main className={"app"}>
-      <Counter/>
+    <main className={"App"}>
+        <AddPostForm/>
+        <PostsList/>
     </main>
   );
 }
